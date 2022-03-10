@@ -1,0 +1,35 @@
+{
+  "name": "apilogin",
+  "version": "1.0.0",
+  "description": "Login API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkMasterThea/apiLogin.git"
+  },
+  "author": "Paolo Maravi <paolo.maravi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkMasterThea/apiLogin/issues"
+  },
+  "homepage": "https://github.com/DarkMasterThea/apiLogin#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "config": "^3.3.7",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.3",
+    "figlet": "^1.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
