@@ -1,12 +1,12 @@
 'use strict'
 const loginDao = require('./login.dao')
 
-const getClientByEmail = async (data) =>{
-    return loginDao.getClientByEmail(data)
+const getUser = async (data) =>{
+    return loginDao.getUser(data)
 }
 
 module.exports = {
-    getClientByEmail
+    getUser
 }
 
 

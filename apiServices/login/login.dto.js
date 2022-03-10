@@ -3,8 +3,9 @@
 //API outputs
 
 const single = (resource, authClient)=>({
-    name: resource.name,
-    email: resource.email
+    id: resource.id,
+    name: resource.fullname,
+    email: resource.username
 })
 
 module.exports = {
